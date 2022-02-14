@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            body {
+       background: rgba(128, 212, 240, 0.267);
+       color: rgb(45, 45, 45);
+       padding: 10px;
+       font-family: arial;
+   }
+   #all-contents {
+     max-width: 800px;
+       margin: auto;
+   }
+
+   /* navigation menu */
+   nav {
+       background: rgb(238, 148, 12);
+      margin: 0 auto;
+      margin-bottom: 20px;
+       display: flex;
+       padding: 10px;
+       border-radius: 50% 20% / 10% 40%;
+   }
+   h1 {
+       display: flex;
+       align-items: center;
+       color: white;
+       flex: 1;
+       margin: 0;
+   }
+   #nav-ul {
+       list-style-image: none;
+   }
+   .nav-li {
+       display: inline-block;
+       padding: 0 10px;
+   }
+   a {
+       text-decoration: none;
+       color: #fff;
+   }
+
+   /* main container area beneath menu */
+   main {
+       background: rgb(245, 238, 219);
+       display: flex;
+   }
+   .sidebar {
+       margin-right: 25px;
+       padding: 10px;
+   }
+   .sidebar-img {
+       width: 200px;
+   }
+   .content {
+       flex: 1;
+       padding: 15px;
+   }
+   #interests {
+       border: 4px silver ridge;
+       padding: 8px;
+   }
+   h2, h3 {
+       margin: 0px;
+   }
+        </style>
+   <title>Amyria Amazing Website </title> 
+    </head>
+
+    <body>
+       <!-- Visible HTML elements GO HERE  -->
+        <div id="all-contents"></div>
+            <nav>
+                <h1>
+                    Amyria's Amazing way of being Lazy  
+                </h1>
+               <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html">Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html">Portfolio </a>
+                    </li>
+               </ul>
+            </nav>
+
+            <main>
+                <!-- Sidebar section -->
+                <div class="sidebar"> 
+                    <img class="sidebar-img" src= data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTEhMVFhUXFxMaGBgYGBsVFRUVFhoYGBoVFxcYHSggGholHRcXITEhJSorLi4uGB8zODMtNygtLisBCgoKDg0OGRAQFy0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLSstLS0tLS0tLS0tLSstNy0tN//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUCAwYBB//EADUQAAIBAgMGBQEIAgMBAAAAAAABAgMRBCExBRJBUWFxIoGRofDRBhMyQrHB4fEjggcVchT/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHBEBAQADAQEBAQAAAAAAAAAAAAECETEhURID/9oADAMBAAIRAxEAPwD7UAAAAAAADGpNJXZXVce75ZL1PNsV7eHhYpKuOjdJ2XL5zOeWXrcx8XNTaFTWO688075ro1obNm7XhVvF+Ca1i/2fFECk+H1IuOwlpRqJXtbTVrkZmdi3GOrBX4THbyVuXHJosUdP0xp4A5fsY73D5kP0aZAx3uJ63kWU09KjHbZSe5SSlLi/yxXczx+PsmuPDmytwuGtG71zfVsxln8amP1MhjaiWcrvjkkr8kuXubsPtJ/m9tSqxNW1/iRohWi9PbmZlXTr4yuro9IOyK14W5E46y7YoACoAAAAAAAAAAAAAAAAptsQu35ZnJ7Wluq+lubaXm+R2u1qWW8uVmcL9onvQaeT4ZHDOeuuN8b/ALPbelXuk4eF28KnZcvFPVnRqfhtJNd1Y+b7AdWUlGlUpxcNKck093jNWWcm89V5n0OinJLPPvdd1clhKk7LV5X6v55lvUehpwuGslfI3b3C2WVjeM1Gcruvbta2Md7Xt+phKebXQ1qXia6LLvkNmm+Unw5/Qxi8jFTs7fO5k1w4c+xqIpMYnvW4c+bZhWxKgtSwx+Hyvy+ZnPbYaUPxW/13rvs7e2Zzs9b2pdtbd8ahFwd3nm96/RWs/N+RZYGN4q1/Kxw6xFSpiNxVHJRef+OEFHonH51O72ZGyStlz/gliyun2HG29lwRakTZtDdh1ef0JZ2x45XoADSAAAAAAAAAAAAAAAAMKyvFrozi9qQy69NUduc9t/Z/5o6P2fI5f03rbeHxy2ysPUneFaKmou8Jt+LX8Ly1Wt78tTstl0M1d3t6+ZW4HDKMc828rrXLS5fbMg0s/iJFqTLTsaKzvx0fpxsyVU7FZi8U9Elrbtl+n1NVmN89Xb58yNDn4mr8Dz7xPP2+aakWNT/I/mVjO2lilnnr8RlB2XTLPiyLUqWbfllzPcHjbpXyvou3zXiWJU2cN6NrHLbZoeF7yus+LWXZZnW08yp2xh72fy+hqxI4JUFGaS8KtlBKyz6K1vJc8zpNi03KpBZWun6d9dNSNjMFFeLd8btm+C9dc0jovs/gHGKqT1a8K5J8e7MSX9NXyLkAHZzAAAAAAAAAAAAAAAAAAANGMpKUGmbzxolIqsHhvL6E+rPd0Wmh7CCWRqqp53OfHTr579uftdjMO6cbU4U6k2t9XnKMeVpKybdlfMpdkfanERrxjUm503NJucGpRjJpbyksr55W1sfQdobPp1YOlXpqpTfCWa8rnE/aH7DYSnQnOj99vpeCLqzdOE7+FqN+Ds0uhvC42exzymW/K72cWpvp6swStK/t1SIWzdqOolKovFbO2m9yXzgTJTz4equc9fG9sJVlFScn4Ypyk+UUm2/Q+YYv7WYqrU3o1alKPiktyMfuknZpuUvxXTfPNaHafaXHtUa0KaTdSEoq/FSTTXoUuzP+PcFOlTlU++V4xvSVWTpt8Uk3kjph+Z1jOZXlWX2B+0uOxNN1KsaTpxk1GVnCc0m0p2Saz8juo+NZ2KrCUIxjGFOKhCKSUVpZdSxorSxnfrevEOtgFez04F7T0XZEWosuhuwsrxRqJW4AGmQAAAAAAAAAAAAAAAAAAAAAfAj1Y5m2c7HpzvW4rq1G/wA+hHxeF8LT/pFjSSu5PgR9qeKLUc3y0uEVE8Cklu/hyKmWLvPTLvn6l3OV6aXty6FSqXj3bdSWiUtmKS8T/wDPe99GWdDDJxWWi+WIjdoZZt6J8eSLTByUVZ6pZ/Tua6MKVPL5/ZIoQzEaVpWRnOruoDzEzSSM8DxRVus5S8yfgZPe7r3QheJ4ANsgAAAAAAAAAAAAAAAAAAAACNi3bMjxxqvZv9/00NuO/b5cqm8znetxOeIu3uxf96Wz/WxoxGat4H0bs/8AWXFdhBO1tW+X6dfMzcY28XC3C/kr+yA5jauJxmFTqUqEa1Nu86d/HlZb1OXZLJopaf8AyXhJR3lh6t8lu+HV3ju5Nybvl+E7bF4mlSjNyembjFOUne1rJZvVHzbBbQh/2EsR/wBXWUJRhHe3Y/eRlvS3qm5fipJZO+QPHW7LqYrEWq1aUacPyU07SinrKcr5vpwzOjw19PaK3s+cm8jThsRSnG8X5NOL84uz/skYudorcWeXRLyRYjONVxzck3ya3e2d2V2Mxynw3Xms81npmrNfyZ1Km8rvJ+vzyItWlbw6W04riFSMLfK3oXGEea8ynweVr/yi3w78S0ESp4ANsgAAAAAAAAAAAAAAAAAAAACLjlkVri28ixxyKzNXTdl89TnetziRSs215d/4NsGoyV+PzPqQ4xvmjdQzeevz2EKn1MPF52TsjQsGr6LPp6+55K6MI1Hd5vQ1tluqU6cVml2S46lXia15X+W+hMrK/XmaKtJZhUSq1qv66e/uzGcss+nd9e55Xysud/6XsYxWXVEVtwqzt/Rc4SGd+Vyow78V/iL3BrIRKkAA2yAAAAAAAAAAAAAAAAAAAAAImLZVTlna1/2LHG1LplY5rPI5ttcalnx4f0TMDid6WdrJ/EiIpvjp6MkUpxjlkuXViQqfWWV0zClAwpu98zdSle6NIxb/ALIlfLX+DbOVjTXqLj6hEGppne1/X5mY72duHv7GdWLeSXzv6BUbEsa22Uki+wn4Sjw7WVi7wX4SxKkAA0yAAAAAAAAAAAAAAAAAAAAAKvGppuxBjms+JbY6K1KepTd8nkc22E2u5rqJNW0+pvcdDRXdmvf52KPcFipQy1XIuMLNPNFVs6mpTSa6F48KoJtN5LTsVEXELMjVIu1/bv0J9G0ry4Ig4uo27LJc/XNgR1d6W/W1jGKs7O/pqb4LdV7/AC5kmm/oBhRST+WLnB6NFTdX+fORa4NiIkgA0gAAAAAAAAAAAAAAAAAAAAAjY5eG64FQ9G3qXtVXTKOvTv0M3rUaZSWhGnHxXlw4G2o0tOR7TkpcM9fp+xFbdj0bTXcv8R+GXZlLs5+NPqi12g/8btxsjUZrCDX3eRW1ouzu7FhgH/ja1z+diHioby+fOZBrlwXbvmaqkd3O3f6m/R2fT2PVH0/bpzCtEI3zeRYbPqve3WQ4TSfcnYKPi7XEFgADTIAAAAAAAAAAAAAAAAAAAAA8k8imryv8+cidtDFKCtfv2IP3ilny+WM1Yi1qSNMZZ3StkbalVZ2+fwa6crcPUipGEluvzLTaHigmtLp+tyjnXSlZ8vRlrhat4uL7ruWJW3ZsfBJN8TRjYNNPgvaxKwsd2DvkRK0m9PnUo0OW/bO/6XPfvLPPka4Rtl1NkHfrYivE1ctsJC12uJWwpJltQhaKRYlbAAVAAAAAAAAAAAAAAAAAAADxs9NOLpuUGo6sCj2rLW2cn8t7mn7vchm+Pq/oSKWDne9VWS0zTz7dLmvaGa5mGkJVGm7PLnrnr87mmpUe8udnr5Z28iThoeBJfmbd+vxexFqx8dujt25gSFRbe81yy/ku9lUHLOSy/UrMI8le19PNcCzW0N1WLIlScTFxjKy4qxXOTfzPLgWM8QpU+5XyqZyVs7r+hSMqfzLiLWfI9hVgr25/rwZsilK+ZRr3bE7B17txb0tbsRZQtHsvYjbLr705cko531eeXsn5gXwIqxDNkarKjcDBTM0wAPTwAAAAAAAAAAAAAAAACu2026clFO/bocntPaG5Hd8TeSyjJ9OCO9PGiaXbiVineml+Gzv0ssiJjMelUVlKWVnuxcrecVkfQNxckeOmuSGjbisDi2lZQnrJ5xa1fVEqMpy/I0dW6S5BUkOIpa0HCMI8mm11uZV5JO1uV+l7L1M68FvttXfB3eXXIhYqtdNJ2tos9Of6kVvnO+eWd+/fIw/+j7t+JrorO769j3D4aLhG7zt5u98/VXNdWKe6uUlZ6cWsvICypVk1ez7GMMDZ+GWWtlZa8xTik8uPpnZcTCNdwnrZN2s1o/oVE2GHNqomyMj0oxUDJAAe3PAAAAAAAAAAAAAAAAAAAAAAAD0xlLU9NdSnfRgQJLlxdn88v0KvE0o77X5nHNX4c7eZZKM6Kk5JzWvhi2+uSv0KPGY1RqubUrKDVt2Tk5N5ZW6P19ctLTDTSp9Y3jfW1rZej9yultC8Kkt1pQbSy1s9e2TRp2Ztim4OLUotuT8cXG/Dil38iv2ptaFOnuwjOpd/li5aXedtMsgjocLiW0m9P3tY31sRGcFJrlcocDtaElZRknZ/ii1p311XqSpwk6UKdOMpvJtrpzbte49HS7Pqpxy4WJZS7Kw1RRtKO75/QtadJo1EraAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAIzR4ANdTQ0R/cADOJvAA8YAAAAAAAAAAAAD/2Q== >
+                </div>
+                
+                <!-- Content section -->
+                <div class="content"> 
+                    <h2>
+
+                    </h2>
+                    <p>
+                        Student at capitol high 
+                    </p>
+                    <!-- Interests section -->
+                    <div id="intrest" >
+                        <h3>
+                            Interests
+                        </h3>
+                        <ul>
+                            <li>Eating </li>
+                            <li>Sleeping</li>
+                            <li>Singing</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>        
+        </div>
+    </body>
+</html>
